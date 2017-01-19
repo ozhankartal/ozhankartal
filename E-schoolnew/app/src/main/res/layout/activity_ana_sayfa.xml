@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_ana_sayfa"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBeyaz">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@color/colorTuruncu"
+        android:minHeight="?attr/actionBarSize"
+        app:popupTheme="@style/Base.ThemeOverlay.AppCompat.Light"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/toolbar"
+        android:layout_marginTop="44dp"
+        android:gravity="center"
+        android:text="BİREBİR DERS"
+        android:textColor="@color/colorTuruncu"
+        android:textSize="70dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:text="ONLİNE EĞİTİM"
+        android:textColor="@color/colorTuruncu"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="250dp"
+        android:layout_height="45dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/anasayfa_tasarim"
+        android:drawableLeft="@drawable/ic_action_name"
+        android:onClick="tıkladık"
+        android:text="Videolar"
+        android:textColor="@color/colorBeyaz" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="200dp"
+        android:layout_height="45dp"
+        android:layout_alignEnd="@+id/button2"
+        android:layout_alignLeft="@+id/button2"
+        android:layout_alignRight="@+id/button2"
+        android:layout_alignStart="@+id/button2"
+        android:layout_below="@+id/button2"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/anasayfa_tasarim"
+        android:drawableLeft="@drawable/ic_action_egtim"
+        android:onClick="tıkladık"
+        android:text="Eğitim Setleri"
+        android:textColor="@color/colorBeyaz" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="200dp"
+        android:layout_height="45dp"
+        android:layout_alignEnd="@+id/button3"
+        android:layout_alignLeft="@+id/button3"
+        android:layout_alignRight="@+id/button3"
+        android:layout_alignStart="@+id/button3"
+        android:layout_below="@+id/button3"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/anasayfa_tasarim"
+        android:drawableLeft="@drawable/ic_action_duyuru"
+        android:onClick="tıkladık"
+        android:text="Etkinlikler"
+        android:textColor="@color/colorBeyaz" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="200dp"
+        android:layout_height="45dp"
+        android:layout_alignEnd="@+id/button4"
+        android:layout_alignLeft="@+id/button4"
+        android:layout_alignRight="@+id/button4"
+        android:layout_alignStart="@+id/button4"
+        android:layout_below="@+id/button4"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/anasayfa_tasarim"
+        android:drawableLeft="@drawable/ic_action_telefon"
+        android:elevation="0dp"
+        android:onClick="tıkladık"
+        android:text="Iletisim"
+        android:textColor="@color/colorBeyaz" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="200dp"
+        android:layout_height="45dp"
+        android:layout_alignEnd="@+id/button"
+        android:layout_alignLeft="@+id/button"
+        android:layout_alignRight="@+id/button"
+        android:layout_alignStart="@+id/button"
+        android:layout_below="@+id/button"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/anasayfa_tasarim"
+        android:drawableLeft="@drawable/ic_action_makale"
+        android:onClick="tıkladık"
+        android:text="Makaleler"
+        android:textColor="@color/colorBeyaz" />
+
+</RelativeLayout>

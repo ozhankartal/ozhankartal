@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="5dip">
+
+    <LinearLayout
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:orientation="vertical"
+        android:paddingLeft="5dp">
+
+        <TextView
+            android:id="@+id/txtDuyuruName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="1:00 ----"
+            android:textSize="25dp"
+            />
+
+        <TextView
+            android:id="@+id/txtDuyuru"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/txtName"
+            android:layout_below="@+id/txtName"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="Java etkinlik-----"
+            android:textColor="#343434"
+            android:textSize="13dip" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/txtDuyuruAciklama"
+            android:layout_marginTop="5dp"
+            android:textSize="13dip"
+            android:text="1:00 PM - 3:00 PM arası------"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_height="match_parent">
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#ff4081</color>
+    <color name="colorBeyaz">#FFFFFF</color>
+    <color name="PrimaryColor">#2196F3</color>
+    <color name="PrimaryDarkColor">#1976D2</color>
+    <color name="colorTuruncu">#ffae00</color>
+    <color name="colorMavi">#09e2d4</color>
+    <color name="colorYesil">#10ed08</color>
+    <color name="colorGri">#e4e7e7</color>
+    <color name="colorSari">#48b5e6</color>
+</resources>

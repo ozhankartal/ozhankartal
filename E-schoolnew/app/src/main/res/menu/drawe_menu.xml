@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/anasayfa"
+            android:icon="@drawable/anasayfa"
+            android:title="Anasayfa" />
+
+        <item
+            android:id="@+id/profil"
+            android:icon="@drawable/fragment_profiladi"
+            android:title="Profil" />
+        <item
+            android:id="@+id/egitim"
+            android:icon="@drawable/profil_egitim"
+            android:title="Eğitmenler" />
+        <item
+            android:id="@+id/satinal"
+            android:icon="@drawable/profil_makale"
+            android:title="Aldığım Eğitim Setleri" />
+
+        <item
+            android:id="@+id/etkinlik"
+            android:icon="@drawable/profil_etkinlik"
+            android:title="Katılcagım Etkinlik"
+           />
+
+
+    </group>
+
+    <item android:title="Other">
+        <menu>
+
+            <item
+                android:id="@+id/iletim"
+                android:title="iletişim" />
+
+
+        </menu>
+    </item>
+
+</menu>
